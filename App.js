@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { View } from 'react-native';
 // import ColorMainScreen from './screens/ColorMainScreen';
-import ColorMainScreen from './screens/ColorMainScreen';
-import ColorMainScreen2 from './screens/ColorMainScreen2';
+// import ColorMainScreen2 from './screens/ColorMainScreen2';
+import LoginScreen from './screens/LoginScreen';
 
 const App = () => {
   return(
     // <ColorMainScreen />
-    <ColorMainScreen2 />
+    // <ColorMainScreen2 />
+    <LoginScreen />
   )
 }
 
